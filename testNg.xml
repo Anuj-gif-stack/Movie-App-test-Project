@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="NxtTrendzTestSuite" parallel="classes" thread-count="5">
+    <test name="LoginAndHomePageTest" >
+        <classes>
+            <class name="LoginPAgeTestUIandFunctional" />
+            <class name="HomePageTest" />
+            <class name="PopularPageTest" />
+            <class name="SearchPageTest" />
+            <class name="AccountPageTest" />
+        </classes>
+    </test>
+</suite>
